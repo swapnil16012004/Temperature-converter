@@ -1,0 +1,64 @@
+body{
+    background:url(t1.jpg);
+    background-size:cover;
+}
+h1{
+    text-align:center;
+    margin-top:5rem;
+    transition-duration:1s;
+    transition-timing-function:ease;
+}
+h1:hover{
+    transform:scale(1.1);
+}
+input[type="text"]{
+    height:4rem;
+    width:30rem;
+    margin:5rem 0 0 32rem;
+    font-size:2rem;
+    opacity:0.8;
+    text-align:center;
+    display:block;
+    border-radius:0.5rem;
+    border:none;
+    background-color:white; 
+    transition-duration:1s;
+    transition-timing-function:ease-in-out;
+
+}
+input[type="text"]:hover{
+    transform:scale(1.1);
+    box-shadow:2px 4px 10px black;
+}
+#convert{
+    display:block;
+    margin:4rem 0 0 44rem;
+    height:3rem;
+    width:6rem;
+    border-radius:0.5rem;
+    color:black;
+    background-color:#ffc107;
+    border:none; 
+    transition-duration:1s;
+    transition-timing-function:ease-in-out;
+    cursor: pointer;
+}
+#convert:hover{
+    transform:scale(1.1);
+}
+#clear{
+    margin:3rem 0 0 44.9rem;
+    height:2.8rem;
+    width:4rem;
+    border-radius:0.5rem;
+    color:black;
+    background-color:white;
+    border:none;
+    transition-duration:1s;
+    transition-timing-function:ease-in-out;
+    cursor: pointer;
+}
+#clear:hover{
+    transform:scale(1.1);
+
+}
